@@ -29,23 +29,22 @@ If you like this plugin but want to customize the funnel more, create multiple f
 
 1. Go to Plugins > Add New and search "Starfish Reviews". Click the "Install Now" button, then the "Activate" button on this plugin.
 
-2. Go to the new "Starfish Reviews" section in your WP Admin sidebar. You'll need to put in the "Review Destination" URL and save this settings page. This should be the reviews section of whatever destination you want them to leave a review. Eg. [https://www.facebook.com/pg/StarfishWP/reviews/](https://www.facebook.com/pg/StarfishWP/reviews/).
+2. Go to the new "Starfish Reviews" section in your WP Admin sidebar. You'll need to put in the "Review Destination" URL and save this settings page. This should be the reviews section of whatever destination you want them to leave a review. Eg. (https://www.facebook.com/pg/StarfishWP/reviews/).
 
 3. Copy the "Review Page URL" and send it via text message or email to your service customers, product users, podcast listeners, business clients, etc, asking them to provide you some feedback. The happy ones will be encouraged to leave a 5-star review at the location you put in step #2. The unhappy ones will be asked to provide feedback on how you can improve, which will be emailed directly to you, or wherever you set in the "Email Settings" portion of the settings.
 
 == Frequently Asked Questions ==
 
 = Can I use this to encourage reviews on ______ website? =
-
 Yes, you can send people to whatever URL you want. So as long as the destination is 1. a website, and 2. is publically linkable, you can send people there. Note: some sites may make it more difficult than others to actually leave a review, and most require an account (eg. Google for Google My Business, Amazon for product reviews, etc).
 
-= I'd really like _____ feature =
-
-Feel free to let us know on the support forum. We'll consider adding new features and functionality to this Lite version of the plugin. Take note that the Pro editions have many more features and functionality and have many more already scheduled for upcoming releases.
+= Could you add _____ feature? =
+Feel free to let us know on the support forum. We'll consider adding new features and functionality to this Lite version of the plugin. Take note that the Pro editions already have many more features and functionality and have many more already scheduled for upcoming releases.
 
 == Screenshots ==
 
-1. The screenshot (assets/screenshot-1.png) show the settings portion of this plugin.
+1. The "funnel" process your client, user, follower, patron, etc, will be taken through.
+2. The settings page for the plugin.
 
 
 == Changelog ==
