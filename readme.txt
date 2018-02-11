@@ -43,9 +43,8 @@ Feel free to let us know on the support forum. We'll consider adding new feature
 
 == Screenshots ==
 
-1. The "funnel" process your client, user, follower, patron, etc, will be taken through.
-2. The settings page for the plugin.
-
+1. The front-end "funnel" flow the reviewer will go through to leave a positive review.
+2. The settings in the WP Admin for Starfish Reviews.
 
 == Changelog ==
 
