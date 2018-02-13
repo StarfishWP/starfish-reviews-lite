@@ -43,8 +43,12 @@ Feel free to let us know on the support forum. We'll consider adding new feature
 
 == Screenshots ==
 
-1. The front-end "funnel" flow the reviewer will go through to leave a positive review.
-2. The settings in the WP Admin for Starfish Reviews.
+1. This is the flow a positive reviewer will go through to leave a 5-star review.
+2. The main portion of the settings interface.
+3. The 1st question of the funnel flow.
+4. The end result of positive feedback: leaving a 5-star review.
+5. Negative feedback is captured internally for review and correction.
+6. The full settings inside the WP Admin for Starfish Reviews.
 
 == Changelog ==
 
