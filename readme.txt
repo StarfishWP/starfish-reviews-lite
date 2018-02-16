@@ -15,7 +15,7 @@ Encourage your customers to leave 5-star reviews on Google, Facebook, Yellow Pag
 
 = Reputation Management for Everyone! =
 
-_Starfish Reviews Lite_ by [Starfish WP Plugins](https://starfishwp.com) enables reputation management campaigns on your WordPress website. Encourage positive, 5-star ratings and reviews while capturing negative reviews for internal improvement. 
+_Starfish Reviews Lite_ by [Starfish WP Plugins](https://starfishwp.com) enables reputation management campaigns on your WordPress website. Encourage positive, 5-star ratings and reviews while capturing negative reviews for internal improvement.
 
 Send the Starfish "funnel" URL to your customers, users, followers, audience, etc and ask for feedback. The Starfish Reviews "funnel" will ask users how they feel about your site. If they like it, they'll be sent to whatever URL you set in the settings. This should be a link to the reviews section of wherever you want to get 5-star reviews. It could be your Google My Business listing, Facebook Page, Yelp, or even a podcast on iTunes, digital product on an online marketplace, or book on Amazon. Get 5-star reviews at any of those locations and many more! Anywhere that takes online reviews.
 

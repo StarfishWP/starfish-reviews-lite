@@ -1,0 +1,40 @@
+.dashicons_reviews{ margin: 4px 10px 0 0; }
+#srm_review_chart_wrap{ float:left; width: 100%; margin: 20px 0; }
+.srm_review_rating, .srm_review_chart{ width: 40%; float: left;}
+.srm_review_chart{ margin-left: 10%; margin-top: -35px; }
+.srm_review_rating .srm_admin_label{ font-size: 130%; line-height: 1.5em; width: 100px; display: inline-block;}
+.srm_review_rating .srm_number{ font-size: 130%; line-height: 1.5em; font-weight: bold;}
+#rating_status{ background: #FFFFFF; border: 2px solid #000000; display: inline-block; font-size: 130%; padding: 10px 20px; margin-bottom: 20px; font-weight: bold;}
+span.review_status{ font-weight: bold;}
+.review_status.poor{ color: #FF0000; }
+.review_status.average{ color: #fcbd01; }
+.review_status.good{ color: #0000FF; }
+.review_status.excellent{ color: #008000; }
+.funnel_link_open{ text-decoration: none; }
+
+.srm_settings_review_header{ width: 100%; float: left; color: #FFFFFF; margin: -22px -22px 0 -22px; padding: 20px 20px 50px 20px; background-image: linear-gradient(180deg,#3dcaff 0%,#00aeef 50%); background-color: #00aeef;}
+.srm_settings_review_header_overlay{ background-image: url(../img/divider-waves.png); float: left; height: 50px; width: 100%; padding: 20px; margin: -50px -22px 0 -22px; background-repeat: no-repeat; background-position: top left; }
+.srm_settings_review_header h2{ color: #FFFFFF; font-size: 1.9em; }
+.srm_settings_review_header p{ font-size: 14px; }
+.srm_settings_review_header .notice{ color: #444444; }
+.srm_settings_left_box{ width: 60%; float: left; }
+.srm_settings_right_box{ width: 40%; float: right; position: relative; }
+
+.srm_promotion_box{ position: absolute; margin-left: 15%; margin-top: 20px; text-align: center; }
+.srm_promotion_box img{ max-width: 200px;}
+.srm_promotion_data{ background-color: #FFFFFF; color: #444444; font-size: 110%; max-width: 200px; padding: 10px 20px 20px 20px; margin: 20px 0; border-radius: 5px 5px 5px 5px; box-shadow: 0px 2px 18px 0px rgba(0,0,0,0.3); }
+.srm_promotion_data h4{ font-size: 1.4em; margin: 10px 0; }
+.srm_promotion_data ul li{ margin-bottom: 8px; }
+@media screen and (max-width: 981px) {
+  .srm_settings_left_box { width: 100%; }
+  .srm_settings_right_box { width: 100%; float: left; }
+  .srm_promotion_box { position: relative; margin-left: 0; }
+  .srm_promotion_data{ max-width: 100%; }
+  .srm_promotion_data ul{ float: left; }
+  .srm_promotion_data ul { list-style-type: disc; list-style-position: inside;}
+  .srm_promotion_data ul li{
+    float: left;
+    padding-right: 20px;
+    margin-left: 10px;
+  }
+}
