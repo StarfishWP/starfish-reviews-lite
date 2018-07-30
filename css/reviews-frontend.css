@@ -5,6 +5,11 @@
 .srm-review-form .srm_form .yes-no-checked label img:hover, .srm_form .yes-no-checked input[type=radio]:checked+label img { opacity: 1; filter: alpha(opacity=100); transform: scale(1); }
 .srm-review-form .srm_form .yes-no-checked .radio_item.radio_item_yes{ margin-right: 10%; }
 .srm-review-form .srm_form .yes-no-checked .radio_item input[type="radio"]{ visibility: hidden; }
+.srm-review-form .srm_form .yes-no-checked .faicon{ font-size: 120px; cursor: pointer;}
+.srm-review-form .srm_form .yes-no-checked .faicon_flip { transform: rotate(360deg) scaleX(-1); }
+.srm-review-form .srm_form .yes-no-checked .iconyes{color: #7ed026;}
+.srm-review-form .srm_form .yes-no-checked .iconno{color: #e96e48;}
+.srm-review-form .srm_form .yes-no-checked .radio_item input[type="radio"]{ visibility: hidden; }
 .srm-review-form .srm_form .review_yes_no_section, .srm_form .btn_review_submit, .review_under_processing{ display: none;}
 .srm-review-form #review_text{ border-radius: 5px;padding: 10px; width: 100%;  font-size: 16px;}
 .srm-review-form #submit_review{ background:#4AD04C;border-radius: 5px; padding:10px 20px; color:#FFF; cursor:pointer; border:none; margin-top:5px !important; font-size: 16px;}

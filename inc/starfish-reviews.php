@@ -99,7 +99,11 @@ function srm_front_end_review_script() {
 	global $post;
 	wp_register_style(  'srm-review-front', SRM_LITE_PLUGIN_URL.'/css/reviews-frontend.css' );
 	if( is_singular('funnel') ) {
+			if ( ! wp_script_is( 'jquery', 'done' ) ) {
+					wp_enqueue_script( 'jquery' );
+			}
 			wp_enqueue_style('srm-review-front');
+			wp_enqueue_style(  'fontawesome', SRM_LITE_PLUGIN_URL.'/css/fontawesome-all.min.css' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'srm_front_end_review_script');

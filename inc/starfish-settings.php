@@ -50,14 +50,20 @@ if ( isset($_POST['srm_settings_nonce']) && (! isset( $_POST['srm_settings_nonce
               <h4><?php echo __( 'Want More?', 'starfish' ); ?></h4>
               <p><strong><?php echo __( 'Checkout our Business and Webmaster versions', 'starfish' ); ?></strong></p>
               <ul>
-                <li><?php echo __( 'More Funnels', 'starfish' ); ?></li>
-                <li><?php echo __( 'Change the Prompts', 'starfish' ); ?></li>
                 <li><?php echo __( 'Priority Support', 'starfish' ); ?></li>
+                <li><?php echo __( 'Multiple Destinations!', 'starfish' ); ?></li>
+                <li><?php echo __( 'Auto-forward', 'starfish' ); ?></li>
+                <li><?php echo __( 'Disable “Gating”', 'starfish' ); ?></li>
+                <li><?php echo __( 'Display Logo', 'starfish' ); ?></li>
                 <li><?php echo __( 'Overall Rating', 'starfish' ); ?></li>
-                <li><?php echo __( 'Result Analytics', 'starfish' ); ?></li>
+                <li><?php echo __( 'Analytics', 'starfish' ); ?></li>
                 <li><?php echo __( 'Customize Wording', 'starfish' ); ?></li>
+                <li><?php echo __( 'Insert via Shortcode', 'starfish' ); ?></li>
+                <li><?php echo __( 'Customize URL', 'starfish' ); ?></li>
                 <li><?php echo __( 'Manage Feedback', 'starfish' ); ?></li>
                 <li><?php echo __( 'Vote on New Features', 'starfish' ); ?></li>
+                <li><?php echo __( 'More Funnels', 'starfish' ); ?></li>
+                <li><?php echo __( 'Change the Prompts', 'starfish' ); ?></li>
               </ul>
               <a class="srm_btn_learn_more button button-primary" href="https://starfishwp.com/" target="_blank"><?php echo __( 'Learn more', 'starfish' ); ?></a>
             </div><!-- srm_promotion_data -->

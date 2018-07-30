@@ -1,5 +1,5 @@
-<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly ?>
-<?php wp_head(); ?>
+<?php require_once('srm-header.php'); ?>
+
 <?php do_action('before-starfish-review-form'); ?>
 <?php
   $srm_funnel_id = get_the_ID();
@@ -29,9 +29,11 @@ if(isset($_GET['id'])){ $tracking_id = esc_html($_GET['id']); }
 ?>
 <h2 class="question_heading"><?php echo $srm_yn_question; ?></h2>
 <?php
-	$lebel_yes = '<img src="'.SRM_LITE_PLUGIN_URL.'/img/thumbs-up-yes-positive-reivew.png" alt="'.__( 'Yes', 'starfish' ).'" />';
-	$lebel_no = '<img src="'.SRM_LITE_PLUGIN_URL.'/img/thumbs-down-no-negative-reivew.png" alt="'.__( 'No', 'starfish' ).'" />';
-	$srm_no_thank_you_msg = esc_html(get_post_meta( $funnel_id, '_srm_no_thank_you_msg', true ));
+
+  $lebel_yes = '<span class="faicon iconyes far fa-thumbs-up"></span>';
+  $lebel_no = '<span class="faicon iconno far fa-thumbs-down faicon_flip"></span>';
+
+  $srm_no_thank_you_msg = esc_html(get_post_meta( $funnel_id, '_srm_no_thank_you_msg', true ));
 ?>
 <div class="review_submit_form_field">
 	<div class="yes-no-checked" id="yes-no-checked">
@@ -151,8 +153,6 @@ if(isset($_GET['id'])){ $tracking_id = esc_html($_GET['id']); }
 <div id="srm_powred_by_txt" class="srm-powered-by"><a href="<?php echo $srm_affiliate_url; ?>" target="_blank"><?php echo $srm_affiliate_text; ?></a></div><!-- srm-powered-by -->
 <?php } ?>
 </div><!-- srm-review-form -->
-
 <?php do_action('after-starfish-review-form'); ?>
-<div class="starfish_review_footer_section">
-<?php wp_footer(); ?>
-</div>
+
+<?php require_once('srm-footer.php'); ?>

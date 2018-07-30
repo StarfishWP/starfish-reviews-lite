@@ -48,7 +48,7 @@ function starfish_notice_for_permium_promotion(){
 
 function starfish_notice_for_getting_funnel(){
   $class = 'notice notice-info srm-promotion-info';
-  $wp_review_url = 'https://wordpress.org/plugins/starfish-reviews/#reviews';
+  $wp_review_url = 'https://wordpress.org/support/plugin/starfish-reviews/reviews/#new-post';
   $wp_review_site = __( 'WordPress.org', 'starfish' );
 	$message = __( 'Excellent! You\'ve gotten some nice feedback from your Starfish Reviews funnel. Could you give Starfish Reviews an honest rating and review on ', 'starfish' );
 	printf( '<div class="%1$s"><p>%2$s <a href="%3$s" target="_blank">%4$s</a>?</p><a class="srm_dismiss_link" href="admin.php?page=starfish-reviews&srm-alart-plugin-review=hide"><span class="dashicons dashicons-no-alt"></span></a></div>', esc_attr( $class ), esc_html( $message ), esc_url( $wp_review_url ), esc_html( $wp_review_site ) );
