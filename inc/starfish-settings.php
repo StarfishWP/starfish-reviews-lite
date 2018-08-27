@@ -11,12 +11,12 @@ if ( isset($_POST['srm_settings_nonce']) && (! isset( $_POST['srm_settings_nonce
      return;
    }
    if(isset($_POST['srm_settings_submit'])){
-       update_option('srm_review_destination', sanitize_text_field($_POST['srm_review_destination']));
+       update_option('srm_review_destination', esc_url($_POST['srm_review_destination']));
        update_option('srm_destination_name', sanitize_text_field($_POST['srm_destination_name']));
        update_option('srm_to_email', sanitize_text_field($_POST['srm_to_email']));
        if(intval(get_option('srm_funnel_id'))){
          $funnel_id = get_option('srm_funnel_id');
-         update_post_meta( $funnel_id, '_srm_review_destination', sanitize_text_field($_POST['srm_review_destination']) );
+         update_post_meta( $funnel_id, '_srm_review_destination', esc_url($_POST['srm_review_destination']) );
          update_post_meta( $funnel_id, '_srm_email_feedback', sanitize_text_field($_POST['srm_to_email']) );
        }
        if(isset($_POST['srm_show_powered_by'])){

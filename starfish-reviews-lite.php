@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Starfish Reviews Lite
-Plugin URI: http://starfishwp.com/reviews/
+Plugin URI: https://starfish.reviews/
 Description: Encourage your customers to leave 5-star reviews on Google, Facebook, Yellow Pages, and more. See responses, monitor your reputation rating, and create multiple funnels with Starfish, the #1 reputation management plugin for WordPress!
 Author: Starfish
-Version: 1.1
-Author URI: https://starfishwp.com
+Version: 1.2
+Author URI: https://starfish.reviews/
 Copyright: © 2018 Starfish.
 License:     GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -26,7 +26,7 @@ class StarfishRMLite{
 	 * Constructor
 	 */
 	public function __construct() {
-		define( 'SRM_LITE_VERSION', '1.1' );
+		define( 'SRM_LITE_VERSION', '1.2' );
 		define( 'SRM_LITE_PLUGIN_URL', untrailingslashit( plugins_url( basename( plugin_dir_path( __FILE__ ) ), basename( __FILE__ ) ) ) );
 		define( 'SRM_LITE_MAIN_FILE', __FILE__ );
 		define( 'SRM_LITE_BASE_FOLDER', dirname( __FILE__ ) );

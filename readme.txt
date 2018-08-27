@@ -67,6 +67,10 @@ Feel free to let us know on the support forum. We'll consider adding new feature
 
 == Changelog ==
 = 1.1 =
+* Fixes
+	* Fix destination url in settings
+
+= 1.1 =
 * Enhancements
 	* Remove words from thumbs up/down icons to make them universal.
   * Add HTML 5 viewport meta tags for better responsiveness.
